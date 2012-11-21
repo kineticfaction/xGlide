@@ -30,11 +30,11 @@
 	core_settings::i()->add('CONFIG_SETTINGS_AUTH',					0);
 
 	// Default Database settings
-	core_settings::i()->add('CONFIG_SERVERS_DATABASE_IP',			'tunnel.pagodabox.com');
-	core_settings::i()->add('CONFIG_SERVERS_DATABASE_USERNAME',		'krishna');
-	core_settings::i()->add('CONFIG_SERVERS_DATABASE_PASSWORD',		'uU7Hy5ib');
-	core_settings::i()->add('CONFIG_SERVERS_DATABASE_DATABASE',		'xglide');
-	core_settings::i()->add('CONFIG_SERVERS_DATABASE_PORT',			3306);
+	core_settings::i()->add('CONFIG_SERVERS_DATABASE_IP',			$_SERVER["DB1_HOST"]);
+	core_settings::i()->add('CONFIG_SERVERS_DATABASE_USERNAME',		$_SERVER["DB1_USER"]);
+	core_settings::i()->add('CONFIG_SERVERS_DATABASE_PASSWORD',		$_SERVER["DB1_PASS"]);
+	core_settings::i()->add('CONFIG_SERVERS_DATABASE_DATABASE',		$_SERVER["DB1_NAME"]);
+	core_settings::i()->add('CONFIG_SERVERS_DATABASE_PORT',			$_SERVER["DB1_PORT"]);
 
 
 	// Hierarchy - You shouldn't normally need to change these

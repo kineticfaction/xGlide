@@ -30,10 +30,10 @@
 	core_settings::i()->add('CONFIG_SETTINGS_AUTH',					0);
 
 	// Default Database settings
-	core_settings::i()->add('CONFIG_SERVERS_DATABASE_IP',			'localhost');
-	core_settings::i()->add('CONFIG_SERVERS_DATABASE_USERNAME',		'username');
-	core_settings::i()->add('CONFIG_SERVERS_DATABASE_PASSWORD',		'password');
-	core_settings::i()->add('CONFIG_SERVERS_DATABASE_DATABASE',		'database');
+	core_settings::i()->add('CONFIG_SERVERS_DATABASE_IP',			'tunnel.pagodabox.com');
+	core_settings::i()->add('CONFIG_SERVERS_DATABASE_USERNAME',		'krishna');
+	core_settings::i()->add('CONFIG_SERVERS_DATABASE_PASSWORD',		'uU7Hy5ib');
+	core_settings::i()->add('CONFIG_SERVERS_DATABASE_DATABASE',		'xglide');
 	core_settings::i()->add('CONFIG_SERVERS_DATABASE_PORT',			3306);
 
 
